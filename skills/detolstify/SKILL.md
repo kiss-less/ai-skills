@@ -35,6 +35,20 @@ Reread as someone who wasn't in the session. Every pronoun must have a visible r
 
 Code, commands, config, data, quotes, and error messages stay verbatim. Do not paraphrase an error message; the exact string is the thing that's searchable.
 
+## Preservation check
+
+Before returning the result, compare it against the original and verify that you have preserved:
+
+- every decision and its rationale
+- every requirement and constraint
+- every dependency or prerequisite
+- every exception and edge case
+- every number, threshold, version, date, or identifier that affects interpretation
+- every actionable warning or prohibition
+- every unresolved question or explicitly stated uncertainty
+
+If removing or changing something could cause a reader to make a different decision, take a different action, or need to ask for clarification, restore it. Do not re-read the result only for readability. Re-read it specifically to detect information loss.
+
 ## Stop condition
 
 Stop when the next cut would remove information rather than words. There is no target length — length is earned, sentence by sentence, and a document that earns 2000 words keeps them.
